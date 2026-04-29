@@ -1,0 +1,22 @@
+{
+  "name": "livemart-mcp-server",
+  "version": "1.0.0",
+  "description": "LiveMart AI 판매자 에이전트 MCP 서버 — Spring AI + Elasticsearch 기반 시스템을 Claude + Supabase로 재설계",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "@supabase/supabase-js": "^2.49.4",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
